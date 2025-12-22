@@ -108,7 +108,6 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 py-10">
-        <h1 className="text-3xl font-bold text-gray-900">Your Notes</h1>
 
         <form
           onSubmit={handleSubmit}
@@ -132,7 +131,7 @@ const Home = () => {
             {editingId ? "Update Note" : "Add Note"}
           </button>
         </form>
-
+        <h1 className="text-3xl font-bold text-gray-900">Your Notes</h1>
         <div className="mt-8">
           {loading ? (
             <LoaderComponent count={4} />
