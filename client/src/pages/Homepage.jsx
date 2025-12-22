@@ -127,7 +127,7 @@ const Home = () => {
             onChange={(e) => setContent(e.target.value)}
           />
 
-          <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-400">
+          <button className="bg-blue-600 mt-4 text-white px-4 py-2 rounded hover:bg-blue-400">
             {editingId ? "Update Note" : "Add Note"}
           </button>
         </form>
